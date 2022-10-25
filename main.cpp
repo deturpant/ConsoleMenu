@@ -3,10 +3,9 @@
 #include "src/MyMenu.h"
 #include "src/MenuItem.h"
 using namespace KVA;
-
+//examples
 void func1(any &param) {
     auto lst = any_cast<list<string>>(param);
-    // кастим наш param под лист из стрингов
     cout << "It`s func num 1\n";
     for (string s : lst) {
         cout << s << endl;
